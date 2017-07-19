@@ -1,0 +1,5 @@
+target
+.*
+!.gitignore
+dependency-reduced-pom.xml
+solr/gdz/data
