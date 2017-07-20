@@ -34,11 +34,6 @@ public class EmbeddedSolrTest {
 	}
 
 	@Test
-	public void shouldBla() throws Exception {
-		System.out.println("bla");
-	}
-
-	@Test
 	public void should() throws Exception {
 		String[][] doc = { { "id", "1" }, {"fulltext", "tesst"} };
 		solr.addDocument(doc);
