@@ -1,0 +1,12 @@
+# The container must have write permissions:
+# chmod a+w solr/gdz
+
+version: '2'
+services:
+  solr:
+    image: solr:6.5.1
+    restart: always
+    volumes:
+      - ./solr:/opt/solr/server/solr
+    ports:
+      - 8989:8983
