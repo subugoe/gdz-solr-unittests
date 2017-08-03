@@ -490,6 +490,8 @@
 
         <dynamicField name="*_s" type="string_mv" indexed="true" stored="true" multiValued="true"/>
 
+        <dynamicField name="p_*" type="text_general" indexed="true" stored="true" />
+
 
         <!-- ###### OLD INDEX ####################################################-->
         <field name="IDDOC" type="string" indexed="true" stored="true"/>

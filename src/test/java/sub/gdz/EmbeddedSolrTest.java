@@ -42,4 +42,11 @@ public class EmbeddedSolrTest {
 		assertEquals(1, solr.results());
 	}
 
+	@Test
+	public void pages() {
+		for (int i = 1; i <= 2000; i++) {
+			System.out.print(",p_" + i);
+		}
+	}
+
 }
